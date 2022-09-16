@@ -1,7 +1,7 @@
 <?php
 include "vendor/autoload.php";
-use GuzzleHttp\Client;
-use GuzzleHttp\Psr7\Request;
+  use GuzzleHttp\Client;
+  use GuzzleHttp\Psr7\Request;
 
 $client = new Client();
 $headers = [
@@ -9,10 +9,10 @@ $headers = [
   'Content-Type' => 'application/json'
 ];
 $body = '{
-  "username": "jeremiahquiambao",
+  "username": "jeremiahquiambao3",
   "password": "win09052021",
   "real_name": "Jeremiah Quiambao",
-  "email": "quiambao.jeremiah@auf.edu.ph1",
+  "email": "quiambao.jeremiah@auf.edu.ph3",
   "access_level": {
     "name": "updater"
   },
